@@ -1,4 +1,4 @@
-# cordova-plugin-emm-app-config 1.0.0
+# cordova-plugin-AppConfig 1.1.3
 
 This plugin defines a global `cordova.plugins.EmmAppConfig` object, which provides information on EMM application configuration (or managed app configuration).
 Although the object is in the global scope, it is not available until after the `deviceready` event.
@@ -11,7 +11,7 @@ Although the object is in the global scope, it is not available until after the 
 
 ## Installation
 
-    cordova plugin add cordova-plugin-emm-app-config
+    cordova plugin add cordova-plugin-AppConfig
 
 ## Methods
 
@@ -66,10 +66,12 @@ For information on implementing various EMM features, including managed app conf
 [AppConfig Community](http://appconfig.org/)
 
 ## [Contributing](CONTRIBUTING.md)
-This is an open source project maintained by Oracle Corp. Pull Requests are currently not being accepted. See 
+This is an open source project maintained by audioeng. Pull Requests are currently being accepted. See 
 [CONTRIBUTING](CONTRIBUTING.md)
 for details.
 
 ## [License](LICENSE.md)
+Based on work by Oracle, updated by Joshua Clark.
+
 Copyright (c) 2017 Oracle and/or its affiliates
 The Universal Permissive License (UPL), Version 1.0
